@@ -15,11 +15,24 @@ public class HomeController : Controller
 
         public IActionResult About()
     {
-        return View();
+        var about = new AboutViewModel {
+            Title = "Hello World",
+            Message = "Welcome to our site",
+            Formed = new DateTime(2022,1,1)        
+            };    
+
+        return View(about);
     }
 
     public IActionResult Index()
     {
+        var longtime = DateTime.Now.ToLongDateString();
+        var message = "Time Now";
+   
+        // add strongly typed values to ViewBag
+        ViewBag.LongTime = longtime;
+        ViewBag.Message = message;
+
         return View();
     }
 

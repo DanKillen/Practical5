@@ -1,6 +1,14 @@
-﻿<h1>About Us</h1>
+﻿@model AboutViewModel
+<div><a href="/home/index">Home</a>
+<a href="/home/about">About</a>
+<a href="/home/privacy">Privacy</a></div>
+
+<h1>About Us</h1>
 <h3>Who Are We</h3>
 
-<p>SMS is a Student Management System</p>
+<p><b>SMS is a Student Management System</b></p>
 
-<a href ="/">Return</a> 
+<p>@Model.Title, @Model.Message</p>
+<p>We were born on @Model.FormedString</p>
+<p>We have been in operation for @Model.Days days</p>
+

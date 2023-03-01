@@ -2,7 +2,13 @@
     ViewData["Title"] = "Home Page";
 }
 
+<div><a href="/home/index">Home</a>
+<a href="/home/about">About</a>
+<a href="/home/privacy">Privacy</a></div>
+
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>@ViewBag.Message : @ViewBag.LongTime</p>
+    <p><a href ="/home/about">About Us</a> </p>
 </div>
