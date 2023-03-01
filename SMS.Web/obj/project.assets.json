@@ -8,24 +8,32 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/runner/.nuget/packages/": {}
+    "C:\\Users\\psd22kid\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/Practical-5-psd22kid/SMS.Web/SMS.Web.csproj",
+      "projectUniqueName": "C:\\Users\\psd22kid\\OneDrive - Ulster University\\Desktop\\OneDrive\\PSD\\COM741\\Practical5\\SMS.Web\\SMS.Web.csproj",
       "projectName": "SMS.Web",
-      "projectPath": "/home/runner/Practical-5-psd22kid/SMS.Web/SMS.Web.csproj",
-      "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/Practical-5-psd22kid/SMS.Web/obj/",
+      "projectPath": "C:\\Users\\psd22kid\\OneDrive - Ulster University\\Desktop\\OneDrive\\PSD\\COM741\\Practical5\\SMS.Web\\SMS.Web.csproj",
+      "packagesPath": "C:\\Users\\psd22kid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\psd22kid\\OneDrive - Ulster University\\Desktop\\OneDrive\\PSD\\COM741\\Practical5\\SMS.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/runner/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\psd22kid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -62,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/nix/store/ri9fcv848y3bkafmzn1lf04zwrnvyyd4-dotnet-sdk-7.0.102/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
